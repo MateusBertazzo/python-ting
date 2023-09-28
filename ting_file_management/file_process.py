@@ -3,7 +3,7 @@ def process(path_file, instance):
 
 
 def remove(instance):
-    """Aqui irá sua implementação"""
+    """Aqui irá sua implementaçã"""
 
 
 def file_metadata(instance, position):
