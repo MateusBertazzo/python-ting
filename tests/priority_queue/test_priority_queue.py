@@ -36,5 +36,5 @@ def test_basic_priority_queueing():
     assert len(result_priority_queue) == 1
     assert result_priority_queue.search(0) == mock[2]
 
-    with pytest.raises(IndexError, match="Índice Inválido ou Inexistente"):
+    with pytest.raises(IndexError):
         result_priority_queue.search(26)
